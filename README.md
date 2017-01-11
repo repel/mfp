@@ -1,6 +1,6 @@
 ![Anthem Portal(Demo)](tools/logo/anthem_banner.png)
 
-|![Build Status](https://bamboo.previewmy.net/plugins/servlet/wittified/build-status/MFP-GCC)|
+![Build Status](https://bamboo.previewmy.net/plugins/servlet/wittified/build-status/MFP-GCC)
 
 Anthem Portal (Demo) is open source software designed to deploy and manage enterprise applications as a highly availabile, platform neutral, highly scalable Software as a Services (SaaS).
 
