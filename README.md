@@ -1,6 +1,6 @@
 ![Anthem Portal(Demo)](tools/logo/anthem_banner.png)
 
-|![Build Status](https://bamboo.previewmy.net/plugins/servlet/wittified/build-status/MFP-GCC)|
+![Build Status](https://bamboo.previewmy.net/plugins/servlet/wittified/build-status/MFP-GCC) [![CLA assistant](https://cla-assistant.io/readme/badge/opensourceanthem/mfp)](https://cla-assistant.io/opensourceanthem/mfp)
 
 New Changes
 
