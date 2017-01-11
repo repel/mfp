@@ -1,15 +1,14 @@
-|![Build Status](http://crucible.previewmy.net:8085/plugins/servlet/wittified/build-status/AOP-MAKE)|
-|:-:|
-
 ![Anthem Portal(Demo)](tools/logo/anthem_banner.png)
 
-Anthem Portal (Demo) is open source software designed to deploy and manage enterprise applications as a highly availabile, platform neutral, highly scalable Software as a Services (SaaS).
+|![Build Status](https://bamboo.previewmy.net/plugins/servlet/wittified/build-status/MFP-GCC)|
 
-Portal (Demo) is a turnkey solution that includes the entire 'stack" of features most organizations want within a SaaS.
+Anthem Project (Demo) is open source software designed to deploy and manage enterprise applications as a highly availabile, platform neutral, highly scalable Software as a Services (SaaS).
+
+Project (Demo) is a turnkey solution that includes the entire 'stack" of features most organizations want within a SaaS.
 
 For more information on Anthem Portal (Demo), please visit the [website](http://live-openanthem.pantheonsite.io)
 
-## Who Uses Anthem Portal (Demo)?
+## Who Uses Anthem Project (Demo)?
 
 * Presently no one, consider it a work in progress.
 
@@ -21,23 +20,16 @@ For more information on Anthem Portal (Demo), please visit the [website](http://
 
 ## Getting Started
 
-### Download a supported IDE
-
-* [Spring Tool Suite](https://spring.io/tools/sts/all)
-* [Intellij IDEA Ultimate Edition 14.1+](https://www.jetbrains.com/idea/download/#section=linux)
-* [NetBeans] (http://netbeans.org/downloads/)
-
 ### Getting Source Repository
 
-* Anthem Portal (Demo) project uses Git.  The offical Git repository is at: [Here](https://github.com/openanthem/portal.git)
-* Anthem Portal Login Module project uses Git.  The offical Git repository is at: [Here](https://github.com/openanthem/login.git)
-* Anthem Discovery Module project uses Git.  The offical Git repository is at: [Here](https://github.com/openanthem/discovery.git)
+* Anthem Project (Demo) uses Git.  The offical Git repository is at: [Here](https://github.com/opensourceanthem/mfp.git)
+* Anthem Project (Demo) Login Module uses Git.  The offical Git repository is at: [Here](https://github.com/opensourceanthem/mfp-login.git)
 
 ### Links
 
-* [Documentation](https://anthemopensource.atlassian.net/wiki/spaces/APD)
-* Developer [Knowledge Base](https://anthemopensource.atlassian.net/wiki/spaces/APDDKB)
-* [Design Documentation](https://anthemopensource.atlassian.net/wiki/spaces/APDDD)
+* [Documentation](https://anthemopensource.atlassian.net/wiki/display/OA/Opensource+Project+Documentation)
+* Developer [Knowledge Base](https://anthemopensource.atlassian.net/wiki/display/OA/Developer+Documentation)
+* [Design Documentation](https://anthemopensource.atlassian.net/wiki/display/OA/Design+Documentation)
 * How to [contribute](CONTRIBUTING.md)
 
 ### Getting Involved and Contributing
