@@ -4,7 +4,7 @@
   <groupId>com.openanthem</groupId>
   <artifactId>mfp</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <packaging>pom</packaging>
 
   <name>mfp</name>
   <description>A project for demonstration and process definition
@@ -29,15 +29,22 @@
     <url>https://github.com/opensourceanthem/mfp/src</url>
     <tag>mfp,core</tag>
   </scm>
-
+ <repositories>
+    <repository>
+        <id>mfp-snapshots</id>
+        <url>https://github.com/opensourceanthem/oa/raw/master/snapshots</url>
+    </repository>
+</repositories>
 <distributionManagement>
     <repository>
-        <id>internal.repo</id>
-        <name>Temporary Staging Repository</name>
-        <url>file://${project.build.directory}/mvn-repo</url>
+        <id>repo</id>
+        <url>https://github.com/opensourceanthem/oa/raw/master/releases</url>
     </repository>
+    <snapshotRepository>
+        <id>snapshot-repo</id>
+        <url>https://github.com/opensourceanthem/oa/raw/master/snapshots</url>
+    </snapshotRepository>
 </distributionManagement>
- 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
@@ -91,9 +98,6 @@
         <plugin>
         	<artifactId>maven-deploy-plugin</artifactId>
        		<version>2.8.1</version>
-        	<configuration>
-               <altDeploymentRepository>internal.repo::default::file://${project.build.directory}/mvn-repo</altDeploymentRepository>
-        	</configuration>
     </plugin>
     </plugins>
   </build>
